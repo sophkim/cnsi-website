@@ -82,6 +82,61 @@ function Carousel(props) {
             </p>
           </div>
         </article>
+
+        {/* article 6 */}
+        <article className={styles.article}>
+          <img className={styles.img} src={logo2} alt="pic01"></img>
+          <div className="carousel__information">
+            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
+            <p className={styles.p}>
+              Consectetur adipisicing elit expedita optio id aliquam suscipit.
+            </p>
+          </div>
+        </article>
+
+        {/* article 7 */}
+        <article className={styles.article}>
+          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <div className="carousel__information">
+            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
+            <p className={styles.p}>
+              Consectetur adipisicing elit expedita optio id aliquam suscipit.
+            </p>
+          </div>
+        </article>
+
+        {/* article 8 */}
+        <article className={styles.article}>
+          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <div className="carousel__information">
+            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
+            <p className={styles.p}>
+              Consectetur adipisicing elit expedita optio id aliquam suscipit.
+            </p>
+          </div>
+        </article>
+
+        {/* article 9 */}
+        <article className={styles.article}>
+          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <div className="carousel__information">
+            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
+            <p className={styles.p}>
+              Consectetur adipisicing elit expedita optio id aliquam suscipit.
+            </p>
+          </div>
+        </article>
+
+        {/* article 10 */}
+        <article className={styles.article}>
+          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <div className="carousel__information">
+            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
+            <p className={styles.p}>
+              Consectetur adipisicing elit expedita optio id aliquam suscipit.
+            </p>
+          </div>
+        </article>
       </div>
       <span className="forward" onClick={handleForward}></span>
       <span className="backward" onClick={handleBackward}></span>

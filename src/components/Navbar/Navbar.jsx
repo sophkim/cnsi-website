@@ -8,9 +8,17 @@ function Navbar(props) {
     <nav>
       <ul>
         <li className={styles.logo}>
-          <img src={logo} className={styles.logoImage} alt="" />
+          <a href="https://www.cnsi.kr">
+            <img src={logo} className={styles.logoImage} alt="" />
+          </a>
         </li>
         <li>회사소개</li>
+        {/* <ul>
+            <li>인사말</li>
+            <li>특허 및 소프트웨어 저작권</li>
+            <li>오시는길</li>
+            <li>연락처</li>
+          </ul> */}
         <li>제품소개</li>
         <li>AI개발</li>
         <li>파트너</li>
