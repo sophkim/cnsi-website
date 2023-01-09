@@ -1,6 +1,7 @@
 nav {
   margin: 0;
   padding: 0;
+  height: 6vh;
 }
 
 ul {
@@ -11,8 +12,37 @@ ul {
 
 li {
   list-style: none;
+
+  padding: 15px;
+  font-size: 0.8rem;
+  cursor: pointer;
 }
 
-.facebook {
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  padding: 0;
+  margin: 0;
+  margin-left: 15px;
+}
+
+.logoImage {
+  width: 110px;
+  padding-top: 0;
+}
+
+.corner {
+  width: 35%;
+}
+
+.facebookIcon {
   color: #2e4b8a;
+  margin-right: 5px;
+}
+
+.languageIcon {
+  margin-right: 5px;
 }
