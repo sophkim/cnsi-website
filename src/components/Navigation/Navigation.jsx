@@ -2,13 +2,16 @@ import React, { useState } from "react";
 import styles from "./navigation.module.css";
 import logo from "../../assets/logo.png";
 import { GrLanguage, GrFacebook } from "react-icons/gr";
-import { DiAndroid } from "react-icons/di";
 import DropdownIntro from "../DropdownIntro/DropdownIntro";
 import DropdownProduct from "../DropdownProduct/DropdownProduct";
+import DropdownAIProduct from "../DropdownAIProduct/DropdownAIProduct";
+import DropdownPartner from "../DropdownPartner/DropdownPartner";
 
 function Navigation(props) {
   const [isIntroOpen, setIsIntroOpen] = useState(false);
   const [isProductOpen, setIsProductOpen] = useState(false);
+  const [isAIProductOpen, setIsAIProductOpen] = useState(false);
+  const [isPartnerOpen, setIsPartnerOpen] = useState(false);
 
   const handleIntro = () => {
     setIsIntroOpen((prev) => !prev);
@@ -16,6 +19,14 @@ function Navigation(props) {
 
   const handleProduct = () => {
     setIsProductOpen((prev) => !prev);
+  };
+
+  const handleAIProduct = () => {
+    setIsAIProductOpen((prev) => !prev);
+  };
+
+  const handlePartner = () => {
+    setIsPartnerOpen((prev) => !prev);
   };
 
   return (
@@ -43,10 +54,22 @@ function Navigation(props) {
             </a>
           </li>
           <li>
-            <a href="">AI개발</a>
+            <a
+              href=""
+              onMouseEnter={handleAIProduct}
+              onMouseLeave={handleAIProduct}
+            >
+              AI개발
+            </a>
           </li>
           <li>
-            <a href="">파트너</a>
+            <a
+              href=""
+              onMouseEnter={handlePartner}
+              onMouseLeave={handlePartner}
+            >
+              파트너
+            </a>
           </li>
           <li>
             <a href="">고객지원</a>
@@ -72,6 +95,8 @@ function Navigation(props) {
       </nav>
       {isIntroOpen ? <DropdownIntro /> : ""}
       {isProductOpen ? <DropdownProduct /> : ""}
+      {isAIProductOpen ? <DropdownAIProduct /> : ""}
+      {isPartnerOpen ? <DropdownPartner /> : ""}
     </>
   );
 }

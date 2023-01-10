@@ -10,7 +10,6 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  background-color: beige;
   padding: 0 35px;
 }
 

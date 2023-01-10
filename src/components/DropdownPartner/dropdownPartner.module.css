@@ -1,4 +1,4 @@
-.dropdownProduct {
+.dropdownPartner {
   list-style: none;
   margin: 0;
   border-top: 1.5px solid rgb(216, 214, 214);
@@ -7,17 +7,10 @@
   padding: 0 0 30px 165px;
 }
 
-.dropdownProduct ul {
+.dropdownPartner ul {
   padding: 30px 60px 0 20px;
 }
 
-.dropdownProduct p {
-  font-weight: bold;
+.dropdownPartner p {
   margin: 0;
-  padding-bottom: 20px;
-}
-
-.dropdownProduct li {
-  list-style: none;
-  padding: 5px 0;
 }
