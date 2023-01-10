@@ -1,0 +1,44 @@
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: beige;
+  padding: 0 35px;
+}
+
+.naviMenu {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+}
+
+.naviMenu li {
+  padding: 8px 25px;
+}
+
+.naviUtill {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+}
+
+.naviUtill li {
+  padding: 8px 25px;
+}
+
+.facebook {
+  color: rgb(36, 36, 138);
+  padding: 0 5px;
+}
+
+.language {
+  padding: 0 5px;
+}
