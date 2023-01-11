@@ -2,6 +2,13 @@ import React from "react";
 import styles from "./header.module.css";
 
 function Header(props) {
+  const handleStart = () => {
+    window.scrollTo({
+      top: 1000,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header className={styles.header}>
       <div className={styles.background} alt="background"></div>
@@ -16,7 +23,9 @@ function Header(props) {
           모든 이에게 도움이되는 공공의 서비스를 제공하고자 노력합니다.
         </p>
       </div>
-      <button className={styles.button}>Start</button>
+      <button className={styles.button} onClick={handleStart}>
+        Start
+      </button>
     </header>
   );
 }
