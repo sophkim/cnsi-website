@@ -1,18 +1,21 @@
 import React, { useState } from "react";
 import styles from "./carousel.module.css";
 import logo2 from "../../assets/logo2.png";
+import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
 function Carousel(props) {
   const [slideVw, setSlideVw] = useState(0);
 
-  const handleForward = () => {
+  console.log(slideVw);
+
+  const handleBackward = () => {
     if (slideVw !== 0) {
       setSlideVw(slideVw + 20);
       console.log(slideVw);
     }
   };
 
-  const handleBackward = () => {
+  const handleForward = () => {
     if (slideVw !== -100) {
       setSlideVw(slideVw - 20);
       console.log(slideVw);
@@ -137,9 +140,13 @@ function Carousel(props) {
             </p>
           </div>
         </article>
-      </div>
-      <span className="forward" onClick={handleForward}></span>
-      <span className="backward" onClick={handleBackward}></span>
+      </div>{" "}
+      <span className={styles.backward} onClick={handleBackward}>
+        <IoChevronBack className={styles.backwardIcon} />
+      </span>
+      <span className={styles.forward} onClick={handleForward}>
+        <IoChevronForward className={styles.forwardIcon} />
+      </span>
     </section>
   );
 }
