@@ -3,13 +3,21 @@ import styles from "./dropdownIntro.module.css";
 
 function DropdownIntro(props) {
   return (
-    <div>
+    <div className={styles.test}>
       {/* 회사소개 */}
       <ul className={styles.dropdownIntro}>
-        <li>인사말</li>
-        <li>특허 및 소프트웨어 저작권</li>
-        <li>오시는길</li>
-        <li>연락처</li>
+        <ul>
+          <p>인사말</p>
+        </ul>
+        <ul>
+          <p>특허 및 소프트웨어 저작권</p>
+        </ul>
+        <ul>
+          <p>오시는길</p>
+        </ul>
+        <ul>
+          <p>연락처</p>
+        </ul>
       </ul>
     </div>
   );
