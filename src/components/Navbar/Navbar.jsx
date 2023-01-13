@@ -51,11 +51,7 @@ function Navbar(props) {
           </a>
         </div>
         <ul className={styles.naviMenu}>
-          <li
-            className={styles.test}
-            onMouseEnter={handleIntro}
-            onMouseLeave={handleIntroClose}
-          >
+          <li onMouseEnter={handleIntro} onMouseLeave={handleIntroClose}>
             회사소개
           </li>
           <li onMouseEnter={handleProduct} onMouseLeave={handleProductClose}>
