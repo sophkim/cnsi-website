@@ -1,46 +1,44 @@
-/* nav {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  padding: 15px;
-  margin: 0 auto;
-  font-size: 0.9rem;
-  cursor: pointer;
-}
-
 a {
   text-decoration: none;
   color: black;
 }
 
-.logo {
-  padding: 0;
-  margin: 5px 0 0 15px;
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
 }
 
-.logoImage {
-  width: 110px;
-  padding-top: 0;
+.naviMenu {
+  display: flex;
+  list-style: none;
+  padding-left: 20px;
+  margin: 0;
 }
 
-.corner {
-  width: 35%;
+.naviMenu li {
+  /* padding: 8px 25px; */
+  padding: 20px 25px;
+  cursor: pointer;
 }
 
-.facebookIcon {
-  color: #2e4b8a;
-  margin-right: 5px;
+.naviUtill {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  margin-right: 10px;
 }
 
-.languageIcon {
-  margin-right: 5px;
-} */
+.naviUtill li {
+  padding: 20px 25px;
+  cursor: pointer;
+}
+
+.facebook {
+  color: rgb(36, 36, 138);
+  padding: 0 5px;
+}
+
+.language {
+  padding: 0 5px;
+}

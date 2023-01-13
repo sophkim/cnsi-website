@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./dropdownIntro.module.css";
 
-function DropdownIntro(props) {
+function DropdownIntro() {
   return (
-    <div className={styles.test}>
+    <div>
       {/* 회사소개 */}
       <ul className={styles.dropdownIntro}>
         <ul>
