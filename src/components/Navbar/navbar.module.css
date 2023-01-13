@@ -3,18 +3,18 @@ a {
   color: black;
 }
 
+.test::after {
+  border-bottom: 4px solid black;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   padding: 0 35px;
-
-  /* 수정 */
   position: relative;
   background-color: #fff;
   width: 100%;
-  /* border-bottom: 30px solid rgb(226, 225, 225); */
-  outline: 1px 0 0 0;
-  box-sizing: content-box;
+  border-bottom: 1px solid rgb(226, 225, 225);
   z-index: 10;
   top: 0;
 }
@@ -27,7 +27,6 @@ a {
 }
 
 .naviMenu li {
-  /* padding: 8px 25px; */
   padding: 20px 25px;
   cursor: pointer;
 }
@@ -57,7 +56,6 @@ a {
 .dropdownIntro {
   list-style: none;
   margin: 0;
-  border-top: 1px solid rgb(216, 214, 214);
   border-bottom: 1px solid rgb(216, 214, 214);
   display: flex;
   padding: 0 0 30px 165px;
@@ -76,7 +74,6 @@ a {
 .dropdownProduct {
   list-style: none;
   margin: 0;
-  border-top: 1px solid rgb(216, 214, 214);
   border-bottom: 1px solid rgb(216, 214, 214);
   display: flex;
   padding: 0 0 30px 165px;
@@ -103,7 +100,6 @@ a {
 .dropdownAIProduct {
   list-style: none;
   margin: 0;
-  border-top: 1px solid rgb(216, 214, 214);
   border-bottom: 1px solid rgb(216, 214, 214);
   display: flex;
   padding: 0 0 30px 165px;
@@ -130,7 +126,6 @@ a {
 .dropdownPartner {
   list-style: none;
   margin: 0;
-  border-top: 1px solid rgb(216, 214, 214);
   border-bottom: 1px solid rgb(216, 214, 214);
   display: flex;
   padding: 0 0 30px 165px;
