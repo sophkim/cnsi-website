@@ -74,10 +74,12 @@ function Navbar(props) {
           </a>
         </ul>
         <ul className={styles.naviUtill}>
-          <li>
-            <GrFacebook className={styles.facebook} />
-            <span>페이스북</span>
-          </li>
+          <a href="https://ko-kr.facebook.com/cnsikorea/" target="_blank">
+            <li>
+              <GrFacebook className={styles.facebook} />
+              <span>페이스북</span>
+            </li>
+          </a>
           <li>
             <GrLanguage className={styles.language} />
             <span>한국어</span>

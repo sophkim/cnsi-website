@@ -45,7 +45,7 @@ export default function Location() {
     // 줌 컨트롤 생성
     const zoomControl = new kakao.maps.ZoomControl();
     map.addControl(zoomControl, kakao.maps.ControlPosition.RIGHT);
-  }, []);
+  });
 
   return (
     <>
@@ -60,20 +60,24 @@ export default function Location() {
 
       {/* info */}
       <div className={styles.information}>
-        <span className={styles.infoAddress}>
+        <div className={styles.infoAddress}>
           <img src={map} alt="map"></img>
-          <p>서울특별시 강동구 암사길 14 3층</p>
-        </span>
-        <span className={styles.infoTel}>
+          <p>서울특별시 강동구 암사길 14 (이새빌딩 3F)</p>
+        </div>
+        <div className={styles.infoTel}>
           <img src={tel} alt="tel"></img>
-          <p>TEL</p>
-          <p>010-25222-1</p>
-        </span>
-        <span className={styles.infoFax}>
+          <span>
+            <h3>TEL</h3>
+            <p>02-3445-0343</p>
+          </span>
+        </div>
+        <div className={styles.infoFax}>
           <img src={fax} alt="fax"></img>
-          <p>FAX</p>
-          <p>010-25222-1</p>
-        </span>
+          <span>
+            <h3>FAX</h3>
+            <p>02-3445-0342</p>
+          </span>
+        </div>
       </div>
 
       <div className={styles.div}></div>
@@ -82,12 +86,12 @@ export default function Location() {
       <div className={styles.transport}>
         <div>교통편</div>
         <span>
-          <img src={bus}></img>
+          <img src={bus} alt="bus"></img>
           <p>버스</p>
           <p>새마을운동중앙회 하차</p>
         </span>
         <span>
-          <img src={train}></img>
+          <img src={train} alt="train"></img>
           <p>지하철</p>
           <p>삼성역 2번 출구 도보로 15분, 학여울역 1번 출구 도보로 10분</p>
         </span>
