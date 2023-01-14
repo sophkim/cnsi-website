@@ -5,9 +5,20 @@
 }
 
 .div {
-  background-color: rgb(226, 225, 225);
+  background-color: rgb(224, 224, 224);
   width: 1200px;
   height: 1px;
   margin: auto;
   margin-bottom: 30px;
+}
+
+/* 파일 다운로드 리스트 */
+.download {
+  width: 1200px;
+  outline: 1px solid rgb(224, 224, 224);
+  margin: auto;
+}
+
+table {
+  width: 100%;
 }

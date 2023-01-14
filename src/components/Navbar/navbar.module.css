@@ -10,7 +10,7 @@ a {
   position: relative;
   background-color: #fff;
   width: 100%;
-  outline: 1px solid rgb(226, 225, 225);
+  outline: 1px solid rgb(224, 224, 224);
   z-index: 10;
   top: 0;
 }
@@ -52,7 +52,7 @@ a {
 .dropdownIntro {
   list-style: none;
   margin: 0;
-  border-bottom: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(224, 224, 224);
   display: flex;
   padding: 0 0 30px 165px;
   z-index: 5;
@@ -74,7 +74,7 @@ a {
 .dropdownProduct {
   list-style: none;
   margin: 0;
-  border-bottom: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(224, 224, 224);
   display: flex;
   padding: 0 0 30px 165px;
   z-index: 5;
@@ -104,7 +104,7 @@ a {
 .dropdownAIProduct {
   list-style: none;
   margin: 0;
-  border-bottom: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(224, 224, 224);
   display: flex;
   padding: 0 0 30px 165px;
   z-index: 5;
@@ -134,7 +134,7 @@ a {
 .dropdownPartner {
   list-style: none;
   margin: 0;
-  border-bottom: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(224, 224, 224);
   display: flex;
   padding: 0 0 30px 165px;
   z-index: 5;
