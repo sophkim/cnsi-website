@@ -30,7 +30,7 @@ export default function Location() {
 
     // 인포윈도우
     var iwContent =
-        '<div style={{padding:"200px"}}>강동구 암사길 14, 3층<br><a href="http://kko.to/9ATEsXGDMy" style="color:blue" target="_blank">큰지도보기</a> <a href="http://kko.to/zkusdq88VG" style="color:blue" target="_blank">길찾기</a></div>',
+        '<div style="width:180px; margin:10px;"><h3 style="margin:0">CNSI</h3><p style="margin:8px;">강동구 암사길 14, 3층</p><a href="http://kko.to/9ATEsXGDMy" target="_blank"><button style="padding:5px; margin:0 5px">지도보기</button></a><a href="http://kko.to/zkusdq88VG" target="_blank"><button style="padding:5px; margin:0 5px">길찾기</button></a></div>',
       iwPosition = new kakao.maps.LatLng(cnsiLat, cnsiLng);
     var infowindow = new kakao.maps.InfoWindow({
       position: iwPosition,
@@ -55,7 +55,12 @@ export default function Location() {
       <div
         id="map"
         className={styles.mapContainer}
-        style={{ width: "1200px", height: "600px", textAlign: "center" }}
+        style={{
+          width: "1200px",
+          height: "600px",
+          textAlign: "center",
+          fontFamily: "Noto Sans KR",
+        }}
       ></div>
 
       {/* info */}
@@ -84,17 +89,23 @@ export default function Location() {
 
       {/* transport */}
       <div className={styles.transport}>
-        <div>교통편</div>
-        <span>
-          <img src={bus} alt="bus"></img>
-          <p>버스</p>
-          <p>새마을운동중앙회 하차</p>
-        </span>
-        <span>
-          <img src={train} alt="train"></img>
-          <p>지하철</p>
-          <p>삼성역 2번 출구 도보로 15분, 학여울역 1번 출구 도보로 10분</p>
-        </span>
+        <div className={styles.transportTitle}>교통편</div>
+        <div className={styles.transportList}>
+          <span className={styles.transportBus}>
+            <img src={bus} alt="bus"></img>
+            <span>
+              <h3>버스</h3>
+              <p>암사역 및 암사종합시장 하차</p>
+            </span>
+          </span>
+          <span className={styles.transportTrain}>
+            <img src={train} alt="train"></img>
+            <span>
+              <h3>지하철</h3>
+              <p>암사역 1번 출구에서 도보 6분</p>
+            </span>
+          </span>
+        </div>
       </div>
     </>
   );

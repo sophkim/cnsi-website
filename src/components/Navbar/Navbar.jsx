@@ -74,7 +74,11 @@ function Navbar(props) {
           </a>
         </ul>
         <ul className={styles.naviUtill}>
-          <a href="https://ko-kr.facebook.com/cnsikorea/" target="_blank">
+          <a
+            href="https://ko-kr.facebook.com/cnsikorea/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <li>
               <GrFacebook className={styles.facebook} />
               <span>페이스북</span>
@@ -127,7 +131,9 @@ function Navbar(props) {
           onMouseLeave={handleProductClose}
         >
           <ul>
-            <p>조달제품</p>
+            <a href="/product/procurement/portable-lte-camera">
+              <p>조달제품</p>
+            </a>
             <a href="/product/procurement/portable-lte-camera">
               <li>LTE 이동형 현장 관제 카메라</li>
             </a>
@@ -137,7 +143,9 @@ function Navbar(props) {
           </ul>
 
           <ul>
-            <p>LTE 이동형 카메라</p>
+            <a href="/product/portable-lte-camera/standard">
+              <p>LTE 이동형 카메라</p>
+            </a>
             <a href="/product/portable-lte-camera/standard">
               <li>Octoportable Standard</li>
             </a>
@@ -156,21 +164,27 @@ function Navbar(props) {
           </ul>
 
           <ul>
-            <p>AI</p>
+            <a href="/product/ai/smart-gauge-reader">
+              <p>AI</p>
+            </a>
             <a href="/product/ai/smart-gauge-reader">
               <li>AI 스마트 게이지 리더</li>
             </a>
           </ul>
 
           <ul>
-            <p>IPTV</p>
+            <a href="/product/iptv/iptv">
+              <p>IPTV</p>
+            </a>
             <a href="/product/iptv/iptv">
               <li>IPTV</li>
             </a>
           </ul>
 
           <ul>
-            <p>IP 스피커</p>
+            <a href="/product/ip-speaker/ip-speaker">
+              <p>IP 스피커</p>
+            </a>
             <a href="/product/ip-speaker/ip-speaker">
               <li>IP 스피커</li>
             </a>
@@ -183,7 +197,9 @@ function Navbar(props) {
           </ul>
 
           <ul>
-            <p>영상 솔루션</p>
+            <a href="/product/video-solution/streamer">
+              <p>영상 솔루션</p>
+            </a>
             <a href="/product/video-solution/streamer">
               <li>Octopus Streamer</li>
             </a>
@@ -204,7 +220,9 @@ function Navbar(props) {
           onMouseLeave={handleAIProductClose}
         >
           <ul>
-            <p>AI 솔루션</p>
+            <a href="/ai/solution/safety-helmet-detection">
+              <p>AI 솔루션</p>
+            </a>
             <a href="/ai/solution/safety-helmet-detection">
               <li>안전모 감지</li>
             </a>
@@ -217,7 +235,9 @@ function Navbar(props) {
           </ul>
 
           <ul>
-            <p>AI R&D 실적</p>
+            <a href="/ai/r&d/furnace">
+              <p>AI R&D 실적</p>
+            </a>
             <a href="/ai/r&d/furnace">
               <li>반도체 웨이퍼 furnace 공정 사고 예측 모니터링</li>
             </a>

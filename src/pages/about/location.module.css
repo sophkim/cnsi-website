@@ -80,17 +80,59 @@
   padding: 0;
 }
 
-/* .infoTel {
-  display: flex;
-  margin-left: auto;
+/* transport */
+.transport {
+  width: 1200px;
+  margin: 20px auto;
 }
 
-.infoFax {
-  display: flex;
-} */
+.transportTitle {
+  font-size: 1.3rem;
+  color: rgb(179, 78, 78);
+  margin: 30px 0;
+}
 
-/* .transport {
+.transportList {
   display: flex;
-  width: 1200px;
-  margin: 50px auto;
-} */
+}
+
+.transportBus {
+  align-items: center;
+  display: flex;
+}
+
+.transportBus span {
+  float: right;
+  padding: 15px;
+}
+
+.transportBus h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.transportBus p {
+  margin: 0;
+  padding: 0;
+}
+
+.transportTrain {
+  align-items: center;
+  display: flex;
+  float: right;
+  margin-left: 50px;
+}
+
+.transportTrain span {
+  padding: 15px;
+}
+
+.transportTrain h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.transportTrain p {
+  margin: 0;
+  padding: 0;
+}
