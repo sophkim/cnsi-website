@@ -17,83 +17,83 @@ export default function Download() {
         <table>
           <thead>
             <tr>
-              <th>번호</th>
-              <th>제품명</th>
-              <th>제공일자</th>
-              <th>다운로드</th>
+              <td>번호</td>
+              <td>제품명</td>
+              <td>제공일자</td>
+              <td>다운로드</td>
             </tr>
           </thead>
           <tbody>
             {/* solution */}
             <tr>
-              <th>1</th>
-              <th>solution example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>1</td>
+              <td>solution example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={solution} download="solution">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
 
             {/* octopusEye */}
             <tr>
-              <th>2</th>
-              <th>octopusEye example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>2</td>
+              <td>octopusEye example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={optopusEye} download="optopusEye">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
 
             {/* solution */}
             <tr>
-              <th>3</th>
-              <th>solution example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>3</td>
+              <td>solution example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={solution} download="solution">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
 
             {/* octopusEye */}
             <tr>
-              <th>4</th>
-              <th>octopusEye example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>4</td>
+              <td>octopusEye example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={optopusEye} download="optopusEye">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
 
             {/* solution */}
             <tr>
-              <th>5</th>
-              <th>solution example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>5</td>
+              <td>solution example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={solution} download="solution">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
 
             {/* octopusEye */}
             <tr>
-              <th>6</th>
-              <th>octopusEye example</th>
-              <th>2023-01-01</th>
-              <th>
+              <td>6</td>
+              <td>octopusEye example</td>
+              <td>2023-01-01</td>
+              <td>
                 <a href={optopusEye} download="optopusEye">
                   <img src={manual} alt="manual"></img>
                 </a>
-              </th>
+              </td>
             </tr>
           </tbody>
         </table>

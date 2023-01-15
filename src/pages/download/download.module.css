@@ -15,10 +15,45 @@
 /* 파일 다운로드 리스트 */
 .download {
   width: 1200px;
-  outline: 1px solid rgb(224, 224, 224);
   margin: auto;
 }
 
 table {
   width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: rgba(224, 224, 224, 0.247);
+}
+
+td {
+  padding: 10px;
+  border: 1px solid rgb(224, 224, 224);
+}
+
+tbody td:nth-child(2) {
+  text-align: left;
+}
+
+tr:hover {
+  background-color: rgba(224, 224, 224, 0.247);
+  cursor: pointer;
+}
+
+td:nth-child(1) {
+  width: 10%;
+}
+
+td:nth-child(2) {
+  width: 65%;
+}
+
+td:nth-child(3) {
+  width: 15%;
+}
+
+td:nth-child(4) {
+  width: 10%;
 }
