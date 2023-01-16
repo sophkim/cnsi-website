@@ -27,6 +27,14 @@ a {
   cursor: pointer;
 }
 
+.naviMenu li:hover::after {
+  content: "";
+  display: block;
+  width: 100%;
+  border-bottom: 2px solid black;
+  margin: 18px 0 -20px 0;
+}
+
 .naviUtill {
   display: flex;
   list-style: none;

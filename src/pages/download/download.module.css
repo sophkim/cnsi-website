@@ -39,7 +39,6 @@ tbody td:nth-child(2) {
 
 tr:hover {
   background-color: rgba(224, 224, 224, 0.247);
-  cursor: pointer;
 }
 
 td:nth-child(1) {
