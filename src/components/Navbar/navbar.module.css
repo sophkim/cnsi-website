@@ -27,12 +27,18 @@ a {
   cursor: pointer;
 }
 
-.naviMenu li:hover::after {
+.naviMenu li::after {
   content: "";
   display: block;
   width: 100%;
   border-bottom: 2px solid black;
-  margin: 18px 0 -20px 0;
+  margin: 19px 0 -21px 0;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+.naviMenu li:hover::after {
+  transform: scaleX(1);
 }
 
 .naviUtill {

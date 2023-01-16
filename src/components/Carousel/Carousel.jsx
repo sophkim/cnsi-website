@@ -16,7 +16,7 @@ function Carousel(props) {
   };
 
   const handleForward = () => {
-    if (slideVw !== -100) {
+    if (slideVw >= -80) {
       setSlideVw(slideVw - 20);
       console.log(slideVw);
     }
