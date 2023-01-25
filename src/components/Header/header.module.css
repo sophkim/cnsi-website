@@ -11,7 +11,7 @@ body {
 .background {
   width: 100%;
   height: 100vh;
-  background-image: url(../../assets/main1.png);
+  background-image: url(../../assets/메인이미지1.png);
   background-position: center center;
   place-items: center;
   background-repeat: no-repeat;
