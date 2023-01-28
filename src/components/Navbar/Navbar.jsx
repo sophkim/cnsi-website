@@ -66,9 +66,9 @@ function Navbar(props) {
           <li onMouseEnter={handlePartner} onMouseLeave={handlePartnerClose}>
             파트너
           </li>
-          <a href="/support">
+          {/* <a href="/support">
             <li>고객지원</li>
-          </a>
+          </a> */}
           <a href="/download">
             <li>다운로드</li>
           </a>
