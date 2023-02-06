@@ -176,8 +176,14 @@ function Navbar(props) {
             <a href="/product/iptv/iptv">
               <p>IPTV</p>
             </a>
-            <a href="/product/iptv/iptv">
-              <li>IPTV</li>
+            <a href="/product/iptv/cms">
+              <li>CMS</li>
+            </a>
+            <a href="/product/iptv/hd">
+              <li>HD 방송 인코더</li>
+            </a>
+            <a href="/product/iptv/settop">
+              <li>셋탑 박스</li>
             </a>
           </ul>
 
@@ -185,18 +191,15 @@ function Navbar(props) {
             <a href="/product/ip-speaker/ip-speaker">
               <p>IP 스피커</p>
             </a>
-            <a href="/product/ip-speaker/ip-speaker">
-              <li>IP 스피커</li>
-            </a>
             <a href="/product/ip-speaker/ip-speaker-server">
               <li>IP 스피커 서버</li>
             </a>
             <a href="/product/ip-speaker/ip-speaker-broadcast-device">
-              <li>IP 스피커 방송장치</li>
+              <li>IP 스피커 방송 단말기</li>
             </a>
           </ul>
 
-          <ul>
+          {/* <ul>
             <a href="/product/video-solution/streamer">
               <p>영상 솔루션</p>
             </a>
@@ -206,7 +209,7 @@ function Navbar(props) {
             <a href="/product/video-solution/cms">
               <li>Octopus CMS (영상관제)</li>
             </a>
-          </ul>
+          </ul> */}
         </ul>
       ) : (
         ""

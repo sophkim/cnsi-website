@@ -17,13 +17,15 @@ import PID from "./pages/ai/PID";
 import VisionEngineering from "./pages/ai/VisionEngineering";
 import PortableIteCamera from "./pages/product/PortableIteCamera";
 import AiSmartGaugeReader from "./pages/product/AiSmartGaugeReader";
+import AiSmartGaugeReaderProduct from "./pages/product/AiSmartGaugeReader_product";
 import OctoportablePole from "./pages/product/OctoportablePole";
 import OctoportableStandard from "./pages/product/OctoportableStandard";
 import OctoportableCompact from "./pages/product/OctoportableCompact";
 import OctoThermalWiFi from "./pages/product/OctoThermalWiFi";
 import OctoFLY from "./pages/product/OctoFLY";
-import IPTV from "./pages/product/IPTV";
-import IpSpeaker from "./pages/product/IpSpeaker";
+import Cms from "./pages/product/Cms";
+import Hd from "./pages/product/Hd";
+import Settop from "./pages/product/Settop";
 import IpSpeakerServer from "./pages/product/IpSpeakerServer";
 import IpSpeakerBroadcastDevice from "./pages/product/IpSpeakerBroadcastDevice";
 import OctopusStreamer from "./pages/product/OctopusStreamer";
@@ -73,13 +75,11 @@ function App() {
           />
           <Route
             path="/product/ai/smart-gauge-reader"
-            element={<AiSmartGaugeReader />}
+            element={<AiSmartGaugeReaderProduct />}
           />
-          <Route path="/product/iptv/iptv" element={<IPTV />} />
-          <Route
-            path="/product/ip-speaker/ip-speaker"
-            element={<IpSpeaker />}
-          />
+          <Route path="/product/iptv/cms" element={<Cms />} />
+          <Route path="/product/iptv/hd" element={<Hd />} />
+          <Route path="/product/iptv/settop" element={<Settop />} />
           <Route
             path="/product/ip-speaker/ip-speaker-server"
             element={<IpSpeakerServer />}
