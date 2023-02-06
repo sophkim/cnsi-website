@@ -164,6 +164,24 @@ function Navbar(props) {
           </ul>
 
           <ul>
+            <a href="/product/portable-lte-camera/standard">
+              <p>WiFi 열화상 현장 안전 카메라</p>
+            </a>
+            <a href="/product/portable-lte-camera/wifi">
+              <li>Octoportable Thermal WiFi</li>
+            </a>
+          </ul>
+
+          <ul>
+            <a href="/product/portable-lte-camera/standard">
+              <p>LTE 드론 영상관제 시스템</p>
+            </a>
+            <a href="/product/portable-lte-camera/fly">
+              <li>Octo Fly</li>
+            </a>
+          </ul>
+
+          <ul>
             <a href="/product/ai/smart-gauge-reader">
               <p>AI</p>
             </a>

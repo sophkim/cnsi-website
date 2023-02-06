@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import styles from "./carousel.module.css";
-import logo2 from "../../assets/logo2.png";
+import test1 from "../../assets/캐러셀_도면해석.png";
+import test2 from "../../assets/캐러셀_아날로그.png";
+import test3 from "../../assets/캐러셀_안전모감지.png";
+import test4 from "../../assets/캐러셀_유간분석.png";
+import test5 from "../../assets/캐러셀_퍼니스시스템.png";
 import { IoChevronBack, IoChevronForward } from "react-icons/io5";
 
 function Carousel(props) {
@@ -33,7 +37,7 @@ function Carousel(props) {
       >
         {/* article 1 */}
         <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic01"></img>
+          <img className={styles.img} src={test1} alt="pic01"></img>
           <div className="carousel__information">
             <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
             <p className={styles.p}>
@@ -44,7 +48,7 @@ function Carousel(props) {
 
         {/* article 2 */}
         <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <img className={styles.img} src={test2} alt="pic02"></img>
           <div className="carousel__information">
             <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
             <p className={styles.p}>
@@ -55,7 +59,7 @@ function Carousel(props) {
 
         {/* article 3 */}
         <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <img className={styles.img} src={test3} alt="pic02"></img>
           <div className="carousel__information">
             <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
             <p className={styles.p}>
@@ -66,7 +70,7 @@ function Carousel(props) {
 
         {/* article 4 */}
         <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <img className={styles.img} src={test4} alt="pic02"></img>
           <div className="carousel__information">
             <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
             <p className={styles.p}>
@@ -77,62 +81,7 @@ function Carousel(props) {
 
         {/* article 5 */}
         <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
-          <div className="carousel__information">
-            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
-            <p className={styles.p}>
-              Consectetur adipisicing elit expedita optio id aliquam suscipit.
-            </p>
-          </div>
-        </article>
-
-        {/* article 6 */}
-        <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic01"></img>
-          <div className="carousel__information">
-            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
-            <p className={styles.p}>
-              Consectetur adipisicing elit expedita optio id aliquam suscipit.
-            </p>
-          </div>
-        </article>
-
-        {/* article 7 */}
-        <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
-          <div className="carousel__information">
-            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
-            <p className={styles.p}>
-              Consectetur adipisicing elit expedita optio id aliquam suscipit.
-            </p>
-          </div>
-        </article>
-
-        {/* article 8 */}
-        <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
-          <div className="carousel__information">
-            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
-            <p className={styles.p}>
-              Consectetur adipisicing elit expedita optio id aliquam suscipit.
-            </p>
-          </div>
-        </article>
-
-        {/* article 9 */}
-        <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
-          <div className="carousel__information">
-            <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
-            <p className={styles.p}>
-              Consectetur adipisicing elit expedita optio id aliquam suscipit.
-            </p>
-          </div>
-        </article>
-
-        {/* article 10 */}
-        <article className={styles.article}>
-          <img className={styles.img} src={logo2} alt="pic02"></img>
+          <img className={styles.img} src={test5} alt="pic02"></img>
           <div className="carousel__information">
             <h3 className={styles.h3}>Lorem ipsum dolor.</h3>
             <p className={styles.p}>
@@ -141,12 +90,12 @@ function Carousel(props) {
           </div>
         </article>
       </div>{" "}
-      <span className={styles.backward} onClick={handleBackward}>
+      {/* <span className={styles.backward} onClick={handleBackward}>
         <IoChevronBack className={styles.backwardIcon} />
       </span>
       <span className={styles.forward} onClick={handleForward}>
         <IoChevronForward className={styles.forwardIcon} />
-      </span>
+      </span> */}
     </section>
   );
 }
