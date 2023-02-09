@@ -155,12 +155,6 @@ function Navbar(props) {
             <a href="/product/portable-lte-camera/pole">
               <li>Octoportable Pole</li>
             </a>
-            <a href="/product/portable-lte-camera/wifi">
-              <li>Octoportable Thermal WiFi</li>
-            </a>
-            <a href="/product/portable-lte-camera/fly">
-              <li>Octo Fly</li>
-            </a>
           </ul>
 
           <ul>

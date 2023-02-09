@@ -1,6 +1,26 @@
+@font-face {
+  font-family: "font_s";
+  src: url("../../font/font_s.TTF");
+}
+
+@font-face {
+  font-family: "font_m";
+  src: url("../../font/font_m.TTF");
+}
+
+@font-face {
+  font-family: "font_b";
+  src: url("../../font/font_b.TTF");
+}
+
+@font-face {
+  font-family: "font_eb";
+  src: url("../../font/font_eb.TTF");
+}
+
 body {
   margin: 0;
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Noto Sans KR";
   overflow-x: hidden;
 }
 
